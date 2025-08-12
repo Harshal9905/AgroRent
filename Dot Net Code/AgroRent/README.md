@@ -1,6 +1,6 @@
 # AgroRent .NET Core Web API
 
-A .NET Core Web API for agricultural equipment rental platform, converted from Spring Boot with identical functionality and architecture.
+A .NET Core Web API for agricultural equipment rental platform.
 
 ## Features
 
@@ -30,18 +30,14 @@ A .NET Core Web API for agricultural equipment rental platform, converted from S
 
 ## Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd AgroRent
-   ```
 
-2. **Install NuGet packages**
+
+1. **Install NuGet packages**
    ```bash
    dotnet restore
    ```
 
-3. **Configure appsettings.json**
+2. **Configure appsettings.json**
    - Update database connection string
    - Add JWT secret key
    - Configure email settings
